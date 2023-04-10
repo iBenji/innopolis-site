@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/fonts.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Главная страница</title>
+</head>
+
+<body class="body">
+    <header class="header">
+        <section class="header__section">
+            <div class="header__logo__block">
+                <a href="./index.html"><img src="./img/svg/logo.svg" alt="Логотип" class="header__logo"></a>
+            </div>
+
+            <nav class="navigation">
+                <ul class="header__list">
+                    <li class="header__item">
+                        <a href="./index.html" class="header__link active__link">Главная</a>
+                    </li>
+                    <li class="header__item">
+                        <a href="./students.html" class="header__link hover__link">Студенты</a>
+                    </li>
+                    <li class="header__item">
+                        <a href="./about.html" class="header__link hover__link">О курсе</a>
+                    </li>
+                    <li class="header__item">
+                        <a href="./contacts.html" class="header__link hover__link">Контакты</a>
+                    </li>
+                </ul>
+
+            </nav>
+
+            <div class="header__login">
+                <button class="burger__button"></button>
+                <button class="header__button header__link">Войти</button>
+            </div>
+            </section>
+    </header>
+
+    <section class="login__section">
+        <div id="login__tab">
+            <div class="login__content">
+                <h2 class="login__title">Войти на сайт</h2>
+                <form class="login__form" action="#" method="post">
+                    <input type="text" name="username" id="username" placeholder="Логин" class="login__input" required>
+                    <input type="text" name="password" id="password" placeholder="Пароль" class="login__input" required>
+                    <button type="submit" class="header__button header__button__login">Войти</button>
+                </form>
+        </div>
+        </div>
+    </section>
+
+    <main class="main__index">
+        <div class="main__content__intro">
+            <div class="main__intro">
+                <h1 class="main__title">Добро пожаловать на курс “Создание веб-сайтов (HTML, CSS)”!</h1>
+                <img src="./img/jpg/intro.jpg" alt="Фото1" class="main__img">
+                <div class="main__content__desc">
+                    <div class="main__desc__subintro">
+                        <div class="main__content__desc">
+                            <h3 class="main__desc__title">Для кого этот курс</h3>
+                            <p class="main__desc__text">Этот курс рассчитан на новичков, которые только начинают
+                                знакомство
+                                с
+                                веб-разработкой. В начале курса вы узнаете о том, как устроен Интернет и веб-сайты.<br>
+                                Для обучения необходимо только владеть компьютерной грамотностью (пользоваться
+                                браузером,
+                                создавать
+                                папки и файлы, устанавливать программы).</p>
+                        </div>
+                        <div class="learn__together"></div>
+                    </div>
+                    <h3 class="main__desc__title">Чему вы научитесь</h3>
+                    <p class="main__desc__text">На этом курсе вы узнаете, как устроены веб-сайты и как создавать их с
+                        нуля.
+                        Изучите основы языков <span class="tbold">HTML, CSS</span> и немного <span
+                            class="tbold">JavaScript</span>. Мы вместе сверстаем сайт нашей группы по этому
+                        макету. А затем вы <span class="titalic">сами</span> сверстаете свои личные странички в качестве
+                        домашнего задания и мы выложим
+                        все
+                        это на сервер.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__text">
+            <h4 class="footer__title">2023 <span class="footer__copy"></span><a href="https://innopolis.university"
+                    class="footer__center">учебный центр</a>
+            </h4>
+        </div>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+@media (min-width: 960px) {
+    .burger__button {
+        display: none;
+    }
+}
+
+@media (max-width: 960px) {
+
+    .burger__button {
+        display: block;
+    }
+
+    .navigation, .header__login  {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        right: 16px;
+        padding: 15px;
+        z-index: 99999;
+    }
+    .header__list {
+        flex-direction: column;
+        position: absolute;
+        right: 5px;
+        padding: 15px;
+        z-index: 99999;
+        margin-top: 38px;
+        background-color: #1b3169;
+    }
+
+    .header__login {
+        padding: 0;
+    }
+
+    .navigation__visible {
+        display: flex;
+    }
+  }
+  

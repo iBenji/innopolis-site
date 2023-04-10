@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/fonts.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Студенты</title>
+</head>
+
+<body>
+    <header class="header">
+        <section class="header__section">
+            <div class="header__logo__block">
+                <a href="./index.html"><img src="./img/svg/logo.svg" alt="Логотип" class="header__logo"></a>
+            </div>
+
+            <nav class="navigation">
+                <ul class="header__list">
+                    <li class="header__item">
+                        <a href="./index.html" class="header__link hover__link">Главная</a>
+                    </li>
+                    <li class="header__item">
+                        <a href="./students.html" class="header__link active__link">Студенты</a>
+                    </li>
+                    <li class="header__item">
+                        <a href="./about.html" class="header__link hover__link">О курсе</a>
+                    </li>
+                    <li class="header__item">
+                        <a href="./contacts.html" class="header__link hover__link">Контакты</a>
+                    </li>
+                </ul>
+
+            </nav>
+            <div class="header__login">
+                <button class="burger__button"></button>
+                <button class="header__button header__link">Войти</button>
+            </div>
+            </section>
+    </header>
+    <section class="login__section">
+        <div id="login__tab">
+            <div class="login__content">
+                <h2 class="login__title">Войти на сайт</h2>
+                <form class="login__form" action="#" method="post">
+                    <input type="text" name="username" id="username" placeholder="Логин" class="login__input" required>
+                    <input type="text" name="password" id="password" placeholder="Пароль" class="login__input" required>
+                    <button type="submit" class="header__button header__button__login">Войти</button>
+                </form>
+        </div>
+        </div>
+    </section>
+
+    <main class="main__students">
+        <div class="main__data__content">
+            <h1 class="main__data__title">Студенты потока 08.02.2023</h1>
+            <div class="main__students_card">
+                <div class="main__students__info">
+                    <div class="main__student__photo"><img src="./img/jpg/photo.jpg" alt="Фото Студента"></div>
+                    <p class="main__student__name">Василий Иванов</p>
+                </div>
+                <div class="main__students__info">
+                    <div class="main__student__photo"><img src="./img/jpg/photo.jpg" alt="Фото Студента">
+                        <p class="main__student__badge">Новичок</p>
+                    </div>
+                    <p class="main__student__name">Мария Александрова</p>
+                </div>
+                <div class="main__students__info">
+                    <div class="main__student__photo"><img src="./img/jpg/photo.jpg" alt="Фото Студента"></div>
+                    <p class="main__student__name">Василий Иванов</p>
+                </div>
+                <div class="main__students__info">
+                    <div class="main__student__photo"><img src="./img/jpg/photo.jpg" alt="Фото Студента"></div>
+                    <p class="main__student__name">Мария Александрова</p>
+                </div>
+                <div class="main__students__info">
+                    <div class="main__student__photo"><img src="./img/jpg/photo.jpg" alt="Фото Студента"></div>
+                    <p class="main__student__name">Василий Иванов</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer__text">
+            <h4 class="footer__title">2023 <span class="footer__copy"></span><a href="https://innopolis.university"
+                    class="footer__center">учебный центр</a>
+            </h4>
+        </div>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+</html>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/fonts.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Контакты</title>
+</head>
+
+<body>
+
+    <header class="header">
+        <section class="header__section">
+            <div class="header__logo__block">
+                <a href="./index.html"><img src="./img/svg/logo.svg" alt="Логотип" class="header__logo"></a>
+            </div>
+
+            <nav class="navigation">
+                <ul class="header__list">
+                    <li class="header__item">
+                        <a href="./index.html" class="header__link hover__link">Главная</a>
+                    </li>
+                    <li class="header__item">
+                        <a href="./students.html" class="header__link hover__link">Студенты</a>
+                    </li>
+                    <li class="header__item">
+                        <a href="./about.html" class="header__link hover__link">О курсе</a>
+                    </li>
+                    <li class="header__item">
+                        <a href="./contacts.html" class="header__link active__link">Контакты</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="header__login">
+                <button class="burger__button"></button>
+                <button class="header__button header__link">Войти</button>
+            </div>
+            </section>
+    </header>
+
+    <section class="login__section">
+        <div id="login__tab">
+            <div class="login__content">
+                <h2 class="login__title">Войти на сайт</h2>
+                <form class="login__form" action="#" method="post">
+                    <input type="text" name="username" id="username" placeholder="Логин" class="login__input" required>
+                    <input type="text" name="password" id="password" placeholder="Пароль" class="login__input" required>
+                    <button type="submit" class="header__button header__button__login">Войти</button>
+                </form>
+        </div>
+        </div>
+    </section>
+
+    <main class="main__contants">
+        <div class="main__contacts__block">
+            <div class="main__contacts__text">
+                <h1 class="main__contacts__title">Как нас найти</h1>
+            </div>
+        </div>
+
+        <div class="main__contacts__map">
+            <div style="position:relative;overflow:hidden;"><a
+                    href="https://yandex.ru/maps/2/saint-petersburg/?utm_medium=mapframe&utm_source=maps"
+                    style="color:#eee;font-size:12px;position:absolute;top:0px;">Санкт‑Петербург</a><a
+                    href="https://yandex.ru/maps/2/saint-petersburg/house/dvortsovaya_ploshchad_2/Z0kYdQZiQUQDQFtjfXV1cXxrZg==/?ll=30.349801%2C59.930044&utm_medium=mapframe&utm_source=maps&z=10.03"
+                    style="color:#eee;font-size:12px;position:absolute;top:14px;">Дворцовая площадь, 2 —
+                    Яндекс Карты</a><iframe class="iframe__map"
+                    src="https://yandex.ru/map-widget/v1/?ll=30.349801%2C59.930044&mode=search&ol=geo&ouri=ymapsbm1%3A%2F%2Fgeo%3Fdata%3DCgoxODI2OTY1MDAxElHQoNC%2B0YHRgdC40Y8sINCh0LDQvdC60YIt0J%2FQtdGC0LXRgNCx0YPRgNCzLCDQlNCy0L7RgNGG0L7QstCw0Y8g0L%2FQu9C%2B0YnQsNC00YwsIDIiCg2jgPJBFaXCb0I%3D&z=10.03"
+                    width="100%" height="370" frameborder="1" allowfullscreen="true"
+                    style="position:relative;"></iframe>
+            </div>
+        </div>
+        <div class="main__contacts__subtitle">
+            <h2 class="main__contacts__title2">Наши контакты</h2>
+            <p class="main__contacts__desc">Адрес: г. Санкт-Петербург, Дворцовая пл., 2, 190000</p>
+            <p class="main__contacts__desc"><a href="tel:+78125555555" class="main__contacts__phone"> Тел: +7 (812)
+                    555-55-55</a></p>
+        </div>
+    </main>
+
+    <footer class="footer footer__students footer__about footer__contacts">
+        <div class="footer__text">
+            <h4 class="footer__title">2023 <span class="footer__copy"></span><a href="https://innopolis.university"
+                    class="footer__center">учебный центр</a>
+            </h4>
+        </div>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+</html>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/fonts.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Студенты</title>
+</head>
+
+<body>
+
+    <header class="header">
+        <section class="header__section">
+            <div class="header__logo__block">
+                <a href="./index.html"><img src="./img/svg/logo.svg" alt="Логотип" class="header__logo"></a>
+            </div>
+
+            <nav class="navigation">
+                <ul class="header__list">
+                    <li class="header__item">
+                        <a href="./index.html" class="header__link hover__link">Главная</a>
+                    </li>
+                    <li class="header__item">
+                        <a href="./students.html" class="header__link hover__link">Студенты</a>
+                    </li>
+                    <li class="header__item">
+                        <a href="./about.html" class="header__link active__link">О курсе</a>
+                    </li>
+                    <li class="header__item">
+                        <a href="./contacts.html" class="header__link hover__link">Контакты</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="header__login">
+                <button class="burger__button"></button>
+                <button class="header__button header__link">Войти</button>
+            </div>
+            </section>
+    </header>
+
+    <section class="login__section">
+        <div id="login__tab">
+            <div class="login__content">
+                <h2 class="login__title">Войти на сайт</h2>
+                <form class="login__form" action="#" method="post">
+                    <input type="text" name="username" id="username" placeholder="Логин" class="login__input" required>
+                    <input type="text" name="password" id="password" placeholder="Пароль" class="login__input" required>
+                    <button type="submit" class="header__button header__button__login">Войти</button>
+                </form>
+        </div>
+        </div>
+    </section>
+
+    <main class="main__about">
+        <div class="main__about__content">
+            <div class="main__about__text">
+                <h1 class="main__about__title">О курсе</h1>
+                <p class="main__about__desc">Посмотрите видео о нас</p>
+            </div>
+            <div class="main__about__video">
+                <iframe class="iframe__video" width="820" height="549" src="https://www.youtube.com/embed/u8fn2XymncQ"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__text">
+            <h4 class="footer__title">2023 <span class="footer__copy"></span><a href="https://innopolis.university"
+                    class="footer__center">учебный центр</a>
+            </h4>
+        </div>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+</html>
