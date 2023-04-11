@@ -9,11 +9,11 @@
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/fonts.css">
     <link rel="stylesheet" href="./css/style.css">
-    <title>Контакты</title>
+    <title>Главная страница</title>
     <script src="./script.js" async></script>
 </head>
 
-<body>
+<body class="body">
     <header class="header">
         <div class="header__section">
             <div class="header__logo__block">
@@ -32,10 +32,11 @@
                         <a href="./about.html" class="header__link hover__link">О курсе</a>
                     </li>
                     <li class="header__item">
-                        <a href="./contacts.html" class="header__link active__link">Контакты</a>
+                        <a href="./contacts.html" class="header__link hover__link">Контакты</a>
                     </li>
                 </ul>
             </nav>
+
             <div class="header__login">
                 <button class="burger__button"></button>
                 <button class="header__button header__link">Войти</button>
@@ -48,41 +49,42 @@
             <div class="login__content">
                 <h2 class="login__title">Войти на сайт</h2>
                 <form class="login__form" action="#" method="post">
-                    <input type="text" name="username" id="username" placeholder="Логин" class="login__input" required>
-                    <input type="text" name="password" id="password" placeholder="Пароль" class="login__input" required>
+                    <input type="text" name="username" id="username" placeholder="Логин" class="login__input">
+                    <input type="text" name="password" id="password" placeholder="Пароль" class="login__input">
                     <button type="submit" class="header__button header__button__login">Войти</button>
                 </form>
-        </div>
+            </div>
         </div>
     </section>
 
-    <main class="main__contants">
-        <div class="main__contacts__block">
-            <div class="main__contacts__text">
-                <h1 class="main__contacts__title">Как нас найти</h1>
+    <main class="main__about__me">
+        <div class="about__me__block">
+            <div class="about__me__img">
+                <img class="profile__photo" src="./img/jpg/photo1.jpg" alt="Фото Профиля">
+            </div>
+            <div class="about__me__text">
+                <p class="profile__name">Имя:</p>
+                <p class="profile__city">Город:</p>
+                <p class="profile__occupy">Работа:</p>
             </div>
         </div>
-
-        <div class="main__contacts__map">
-            <div style="position:relative;overflow:hidden;"><a
-                    href="https://yandex.ru/maps/2/saint-petersburg/?utm_medium=mapframe&utm_source=maps"
-                    style="color:#eee;font-size:12px;position:absolute;top:0px;">Санкт‑Петербург</a><a
-                    href="https://yandex.ru/maps/2/saint-petersburg/house/dvortsovaya_ploshchad_2/Z0kYdQZiQUQDQFtjfXV1cXxrZg==/?ll=30.349801%2C59.930044&utm_medium=mapframe&utm_source=maps&z=10.03"
-                    style="color:#eee;font-size:12px;position:absolute;top:14px;">Дворцовая площадь, 2 —
-                    Яндекс Карты</a><iframe class="iframe__map"
-                    src="https://yandex.ru/map-widget/v1/?ll=30.349801%2C59.930044&mode=search&ol=geo&ouri=ymapsbm1%3A%2F%2Fgeo%3Fdata%3DCgoxODI2OTY1MDAxElHQoNC%2B0YHRgdC40Y8sINCh0LDQvdC60YIt0J%2FQtdGC0LXRgNCx0YPRgNCzLCDQlNCy0L7RgNGG0L7QstCw0Y8g0L%2FQu9C%2B0YnQsNC00YwsIDIiCg2jgPJBFaXCb0I%3D&z=10.03"
-                    style="position:relative;"></iframe>
+        <section class="about__me">
+            <div class="about__me__content">
+                <h2 class="about__title">Обо мне</h2>
+                <p class="about__subtitle">Занимаюсь веб-разработкой, вёрсткой сайтов, также имеется опыт по геймдеву на <span lang="en">Unreal Engine 5</span>, графических редакторов по типу <span lang="en">Photoshop, Sony Vegas</span>. В процессе изучения <span lang="en">Python</span> и <span lang="en">Ethical Hacking</span>.</p>
+                <h3 class="about__title">Мои умения</h3>
+                <div class="about__taglist">
+                    <div lang="en" class="about__tag">HTML5</div>
+                    <div lang="en" class="about__tag">CSS3</div>
+                    <div lang="en" class="about__tag">Javascript</div>
+                    <div lang="en" class="about__tag">Unreal Engine 5</div>
+                    <div lang="en" class="about__tag">Sony Vegas</div>
+                </div>
             </div>
-        </div>
-        <div class="main__contacts__subtitle">
-            <h2 class="main__contacts__title2">Наши контакты</h2>
-            <p class="main__contacts__desc">Адрес: г. Санкт-Петербург, Дворцовая пл., 2, 190000</p>
-            <p class="main__contacts__desc"><a href="tel:+78125555555" class="main__contacts__phone"> Тел: +7 (812)
-                    555-55-55</a></p>
-        </div>
+        </section>
     </main>
 
-    <footer class="footer footer__students footer__about footer__contacts">
+    <footer class="footer">
         <div class="footer__text">
             <h4 class="footer__title">2023 <span class="footer__copy"></span><a href="https://innopolis.university"
                     class="footer__center">учебный центр</a>

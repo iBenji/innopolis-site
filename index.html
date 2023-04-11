@@ -5,15 +5,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/svg/favicon.svg" type="image/svg">
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/fonts.css">
     <link rel="stylesheet" href="./css/style.css">
     <title>Главная страница</title>
+    <script src="./script.js" async></script>
 </head>
 
 <body class="body">
     <header class="header">
-        <section class="header__section">
+        <div class="header__section">
             <div class="header__logo__block">
                 <a href="./index.html"><img src="./img/svg/logo.svg" alt="Логотип" class="header__logo"></a>
             </div>
@@ -33,14 +35,13 @@
                         <a href="./contacts.html" class="header__link hover__link">Контакты</a>
                     </li>
                 </ul>
-
             </nav>
 
             <div class="header__login">
                 <button class="burger__button"></button>
                 <button class="header__button header__link">Войти</button>
             </div>
-            </section>
+        </div>
     </header>
 
     <section class="login__section">
@@ -48,11 +49,11 @@
             <div class="login__content">
                 <h2 class="login__title">Войти на сайт</h2>
                 <form class="login__form" action="#" method="post">
-                    <input type="text" name="username" id="username" placeholder="Логин" class="login__input" required>
-                    <input type="text" name="password" id="password" placeholder="Пароль" class="login__input" required>
+                    <input type="text" name="username" id="username" placeholder="Логин" class="login__input">
+                    <input type="text" name="password" id="password" placeholder="Пароль" class="login__input">
                     <button type="submit" class="header__button header__button__login">Войти</button>
                 </form>
-        </div>
+            </div>
         </div>
     </section>
 
@@ -97,6 +98,5 @@
             </h4>
         </div>
     </footer>
-    <script src="./script.js"></script>
 </body>
 </html>

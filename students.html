@@ -5,19 +5,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/svg/favicon.svg" type="image/svg">
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/fonts.css">
     <link rel="stylesheet" href="./css/style.css">
     <title>Студенты</title>
+    <script src="./script.js" async></script>
 </head>
 
 <body>
     <header class="header">
-        <section class="header__section">
+        <div class="header__section">
             <div class="header__logo__block">
                 <a href="./index.html"><img src="./img/svg/logo.svg" alt="Логотип" class="header__logo"></a>
             </div>
-
+        
             <nav class="navigation">
                 <ul class="header__list">
                     <li class="header__item">
@@ -33,13 +35,13 @@
                         <a href="./contacts.html" class="header__link hover__link">Контакты</a>
                     </li>
                 </ul>
-
+        
             </nav>
             <div class="header__login">
                 <button class="burger__button"></button>
                 <button class="header__button header__link">Войти</button>
             </div>
-            </section>
+        </div>
     </header>
     <section class="login__section">
         <div id="login__tab">
@@ -62,22 +64,22 @@
                     <div class="main__student__photo"><img src="./img/jpg/photo.jpg" alt="Фото Студента"></div>
                     <p class="main__student__name">Василий Иванов</p>
                 </div>
-                <div class="main__students__info">
-                    <div class="main__student__photo"><img src="./img/jpg/photo.jpg" alt="Фото Студента">
+                <a class="profile__link" href="./about_me.html"><div class="main__students__info">
+                    <div class="main__student__photo"><img class="profile__img" src="./img/jpg/photo1.jpg" alt="Фото Студента">
                         <p class="main__student__badge">Новичок</p>
                     </div>
-                    <p class="main__student__name">Мария Александрова</p>
-                </div>
+                    <p class="main__student__name">Дмитрий Цих</p>
+                </div></a>
                 <div class="main__students__info">
-                    <div class="main__student__photo"><img src="./img/jpg/photo.jpg" alt="Фото Студента"></div>
+                    <div class="main__student__photo"><img class="profile__img" src="./img/jpg/photo.jpg" alt="Фото Студента"></div>
                     <p class="main__student__name">Василий Иванов</p>
                 </div>
                 <div class="main__students__info">
-                    <div class="main__student__photo"><img src="./img/jpg/photo.jpg" alt="Фото Студента"></div>
+                    <div class="main__student__photo"><img class="profile__img" src="./img/jpg/photo.jpg" alt="Фото Студента"></div>
                     <p class="main__student__name">Мария Александрова</p>
                 </div>
                 <div class="main__students__info">
-                    <div class="main__student__photo"><img src="./img/jpg/photo.jpg" alt="Фото Студента"></div>
+                    <div class="main__student__photo"><img class="profile__img" src="./img/jpg/photo.jpg" alt="Фото Студента"></div>
                     <p class="main__student__name">Василий Иванов</p>
                 </div>
             </div>
@@ -90,6 +92,5 @@
             </h4>
         </div>
     </footer>
-    <script src="./script.js"></script>
 </body>
 </html>

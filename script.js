@@ -19,14 +19,14 @@ function ShowLoginTab() {
     document.querySelector("main").style.backgroundColor = "#fff";
   } else {
     LoginTabElement.style.display = "block";
-    document.querySelector("main").style.backgroundColor = "#313131";
+    // document.querySelector("main").style.backgroundColor = "#313131";
   }
 }
 
 function CloseLoginTab() {
   document.querySelector("main").style.backgroundColor = "#fff";
   LoginTabElement.style.display = "none";
-  BurgerNavigationElement.classList.remove("navigation__visible");
+  // BurgerNavigationElement.classList.remove("navigation__visible");
 }
 
 BurgerButtonElement.addEventListener("click", ShowBurgerMenu);

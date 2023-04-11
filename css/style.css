@@ -1,4 +1,5 @@
 @import url(./burger.css);
+@import url(./about_me.css);
 
 html {
   box-sizing: border-box;
@@ -18,7 +19,6 @@ body {
   display: flex;
   flex-direction: column;
 }
-
 
 /* Index.html Start */
 /* Index Header Start */
@@ -161,13 +161,21 @@ align-items: center;
 }
 
 .login__input {
-  padding: 0 10px;
+  border: 1px solid;
+  outline: none;
+  padding-left: 10px;
+  padding-right: 10px;
   margin-bottom: 56px;
 }
+
 
 .header__button__login {
   margin: 0 auto;
   border: 0;
+}
+
+.header__button__login:hover {
+  box-shadow: 0px 0px 5px #3d3d3d;
 }
 
 /* Login Tab End */
@@ -312,16 +320,34 @@ align-items: center;
   grid-row-gap: 50px;
   justify-content: flex-start;
   flex-direction: row;
+}
 
+.profile__link {
+  text-decoration: none;
+}
+
+.main__students__info {
+  height: fit-content;
+  transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.main__students__info:hover {
+  cursor: pointer;
+  box-shadow: 0px 0px 10px rgb(27, 118, 255);
 }
 
 .main__student__photo {
+  width: 200px;
+  height: 270px;
   position: relative;
   transition: .2s;
 }
 
-.main__student__photo:hover {
-  box-shadow: 0px 0px 10px rgb(27, 118, 255);
+.profile__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background-repeat: no-repeat;
 }
 
 .main__student__badge {
@@ -345,7 +371,7 @@ align-items: center;
   max-width: 200px;
   font-size: 20px;
   line-height: 23px;
-  margin-top: 8px;
+  padding-top: 8px;
   color: #000000;
 }
 
@@ -384,11 +410,6 @@ align-items: center;
   margin-top: 15px;
 }
 
-.iframe {
-  width: 100%;
-  height: 450px;
-}
-
 /* Main About End */
 /* About.html End */
 
@@ -415,6 +436,11 @@ align-items: center;
 
 .main__contacts__map {
   margin-top: 25px;
+}
+
+.iframe__map {
+  width: 100vw;
+  height: 320px;
 }
 
 .main__contacts__subtitle {
@@ -541,11 +567,33 @@ align-items: center;
 
 .iframe__video {
   width: 100vw;
+  height: 285px;
 }
 
 #login__tab {
   width: 320px;
   height: 400px;
+}
+
+.main__about__me {
+  flex-direction: column;
+}
+
+.about__me__block, .profile__photo {
+  margin: 0 auto;
+}
+
+.about__me__block {
+  margin-bottom: 20px;
+}
+
+.about__title, .about__subtitle {
+  text-align: center;
+}
+
+.about__tag {
+  flex-grow: 1;
+  text-align: center;
 }
 
 }
